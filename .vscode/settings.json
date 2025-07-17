@@ -1,0 +1,30 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "livePreview.portNumber": 3000,
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "liveshare.showInStatusBar": "always",
+    "livePreview.openPreviewTarget": "Embedded Preview",
+    "livePreview.hostIP": "127.0.0.1",
+    "livePreview.customExternalBrowser": "Default",
+    "livePreview.debugOnExternalPreview": false,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#d85745",
+        "activityBar.background": "#d85745",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#47d858",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#d85745",
+        "statusBar.background": "#c13b29",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#d85745",
+        "statusBarItem.remoteBackground": "#c13b29",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#c13b29",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#c13b2999",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#c13b29"
+}
