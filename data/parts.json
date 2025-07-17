@@ -1,0 +1,168 @@
+[
+  {
+    "id": "1",
+    "sku": "0103483",
+    "name": "H4 140mm x 45mm x 2.1m Twin Post",
+    "image": "b8a49d326f2764c327856b402f31c216.jpg",
+    "dimensions": {
+      "height": 2100,
+      "width": 140,
+      "depth": 45
+    }
+  },
+  {
+    "id": "8",
+    "sku": "0103484",
+    "name": "H4 140mm x 45mm x 2.4m Twin Post",
+    "image": "fb9e35a1efcb011d9203bd73d69861a7.jpg",
+    "dimensions": {
+      "height": 2400,
+      "width": 140,
+      "depth": 45
+    }
+  },
+  {
+    "id": "9",
+    "sku": "0103485",
+    "name": "H4 140mm x 45mm x 2.7m Twin Post",
+    "image": "a0ef2942646834d3475d0a0f53f515d3.jpg",
+    "dimensions": {
+      "height": 2700,
+      "width": 140,
+      "depth": 45
+    }
+  },
+  {
+    "id": "14",
+    "sku": "43920",
+    "name": "H4 130mm x 35mm x 2.1m Posts",
+    "image": "1bb12c79b94455bed2093ec954eb3e4a.jpg",
+    "dimensions": {
+      "height": 2100,
+      "width": 130,
+      "depth": 35
+    }
+  },
+  {
+    "id": "2h",
+    "sku": "0043926",
+    "name": "MicroPro H3.2 275mm x 30mm x 1.8m CLT Panels",
+    "image": "936f12181e003f8fe4b01a2bd08f47cf.jpg",
+    "dimensions": {
+      "width": 1800,
+      "height": 275,
+      "depth": 30
+    }
+  },
+  {
+    "id": "2v",
+    "sku": "0043926",
+    "name": "MicroPro H3.2 275mm x 30mm x 1.8m CLT Panels",
+    "image": "936f12181e003f8fe4b01a2bd08f47cf.jpg",
+    "dimensions": {
+      "height": 1800,
+      "width": 275,
+      "depth": 30
+    }
+  },
+  {
+    "id": "3",
+    "sku": "0043927",
+    "name": "MicroPro H3.2 88mm x 45mm x 1.8m capping rail",
+    "image": "97345b82312444a4beb9aecbb1dcc77d.jpg",
+    "dimensions": {
+      "width": 1800,
+      "height": 88,
+      "depth": 45
+    }
+  },
+  {
+    "id": "4",
+    "sku": "0043928",
+    "name": "MicroPro H3.2 135mm x 30mm x 170mm post caps",
+    "image": "2aaf7d982ff3b24948c9234e74039196.jpg",
+    "dimensions": {
+      "length": 170,
+      "width": 135,
+      "height": 30
+    }
+  },
+  {
+    "id": "5",
+    "sku": "0043924",
+    "name": "H4 120mm x 30mm x 450mm Post Block",
+    "image": "2f38fa394e5c6ba308fa818fe07fd79f.jpg",
+    "dimensions": {
+      "length": 450,
+      "width": 120,
+      "height": 30
+    }
+  },
+  {
+    "id": "6",
+    "sku": "0043930",
+    "name": "H3.2 40mm x 30mm x 2.0m infill",
+    "image": "874461a879bcfaf680122b76388fc327.jpg",
+    "dimensions": {
+      "length": 2000,
+      "width": 40,
+      "height": 30
+    }
+  },
+  {
+    "id": "7",
+    "sku": "0043925",
+    "name": "H4 135mm x 30mm x 1.8m Base board",
+    "image": "e1f84eee9f01900efc8315924c367e13.jpg",
+    "dimensions": {
+      "length": 1800,
+      "width": 135,
+      "height": 30
+    }
+  },
+  
+  {
+    "id": "12",
+    "sku": "0658855",
+    "name": "Titan 10G x 65mm Weather Force Decking Screw",
+    "image": "c6eaf43f2dca185c463879e27783b896.png",
+    "dimensions": {
+      "length": 65,
+      "width": 10,
+      "height": 0
+    }
+  },
+  {
+    "id": "13",
+    "sku": "0575883",
+    "name": "Bremick XTP 14g x 75mm Black T40 B8 Bugle",
+    "image": "ac4d9e536f6bbea4b495d13396ac1191.png",
+    "dimensions": {
+      "length": 75,
+      "width": 14,
+      "height": 0
+    }
+  },
+  {
+    "id": "15",
+    "sku": "0111201",
+    "name": "Fentec 2.4m Horizontal post and rail kit",
+    "image": "easywall-postkit.png",
+    "dimensions": {
+      "length": 2400,
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "id": "16",
+    "sku": "0111202",
+    "name": "Fentec 2.4m Vertical post and rail kit",
+    "image": "easywall-postkit.png",
+    "dimensions": {
+      "length": 2400,
+      "width": 0,
+      "height": 0
+    }
+  }
+]
