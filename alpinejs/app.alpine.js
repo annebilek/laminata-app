@@ -29,3 +29,15 @@ async function getParts() {
         return [];
     }
 }
+
+function validateFenceLength(fenceLength) {
+    if (isNaN(parseFloat(fenceLength))) {
+        return 'Please enter a valid number';
+    }
+
+    if (parseFloat(fenceLength) < 2) {
+        return 'Length must be at least 2 meters';
+    }
+
+    return '';
+}
