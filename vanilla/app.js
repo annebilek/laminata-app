@@ -28,7 +28,7 @@ async function displayProducts() {
       childButton.onclick = () => {
         showParts(parts.filter(part => option.parts.includes(part.id)));
       };
-      childButton.classList.add('border-blue-900', 'bg-blue-600', 'text-white', 'my-1', 'px-2', 'py-1', 'rounded');
+      childButton.classList.add('border-blue-900', 'bg-blue-600', 'text-white', 'hover:bg-blue-700', 'hover:cursor-pointer', 'my-1', 'px-2', 'py-1', 'rounded');
       childLi.appendChild(childButton);
       childUl.appendChild(childLi);
     });
