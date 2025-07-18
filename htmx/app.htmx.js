@@ -12,7 +12,7 @@ function populateProducts(event) {
 
 async function loadPartsData() {
   try {
-    const response = await fetch('/data/parts.json');
+    const response = await fetch('../data/parts.json');
     allPartsData = await response.json();
   } catch (error) {
     console.error('Error loading parts data:', error);
