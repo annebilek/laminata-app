@@ -15,7 +15,7 @@
     <main class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <section id="products-list" class="p-4">
             <h2 class="text-lg font-bold">Choose a fence style and height</h2>
-            <ul id="products" hx-get="/data/products.json" hx-trigger="load" hx-on::after-request="populateProducts(event)">
+            <ul id="products" hx-get="../data/products.json" hx-trigger="load" hx-on::after-request="populateProducts(event)">
                 <!-- Products will be dynamically loaded here -->
             </ul>
 

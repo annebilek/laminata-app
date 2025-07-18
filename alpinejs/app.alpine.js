@@ -1,6 +1,6 @@
 async function getProducts() {
     try {
-        const response = await fetch('/data/products.json');
+        const response = await fetch('../data/products.json');
         if (!response.ok) {
             console.error('Failed to fetch products:', response.statusText);
             return [];
@@ -16,7 +16,7 @@ async function getProducts() {
 
 async function getParts() {
     try {
-        const response = await fetch('/data/parts.json');
+        const response = await fetch('../data/parts.json');
         if (!response.ok) {
             console.error('Failed to fetch parts:', response.statusText);
             return [];
