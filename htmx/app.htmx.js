@@ -52,9 +52,10 @@ function showParts(requiredPartIds) {
 
 function renderPartsHtml(data) {
   return data.map(item => 
-    `<li id="part-${item.sku}">
-        <span>${item.name}</span>
-    </li>`
+    `<div class="grid grid-cols-[auto_1fr] gap-4 px-4 py-3 border-b last:border-b-0">
+        <img src="../data/images/${item.image}" alt="${item.name}" class="h-12 w-16 rounded-md object-cover">
+        <span class="flex items-center">${item.name}</span>
+    </div>`
   ).join('');
 }
 
