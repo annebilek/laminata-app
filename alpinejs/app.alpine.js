@@ -5,9 +5,7 @@ async function getProducts() {
             console.error('Failed to fetch products:', response.statusText);
             return [];
         }
-        const products = await response.json();
-        console.log('Products loaded:', products);
-        return products;
+        return await response.json();
     } catch (error) {
         console.error('Error loading products:', error);
         return [];
@@ -21,9 +19,7 @@ async function getParts() {
             console.error('Failed to fetch parts:', response.statusText);
             return [];
         }
-        const parts = await response.json();
-        console.log('Parts loaded:', parts);
-        return parts;
+        return await response.json();
     } catch (error) {
         console.error('Error loading parts:', error);
         return [];

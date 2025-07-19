@@ -28,7 +28,7 @@
                                 <li>
                                     <button 
                                         class="border-blue-900 bg-blue-600 text-white my-1 px-2 py-1 rounded hover:bg-blue-700 hover:cursor-pointer"
-                                        x-text="option.height + 'mm'"
+                                        x-text="`${option.height}mm`"
                                         x-on:click="filteredParts = parts.filter(part => option.parts.includes(part.id))"
                                     >
                                     </button>
