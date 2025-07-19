@@ -1,0 +1,345 @@
+[
+  {
+    "fence_product": "1_1",
+    "calculation_form": "(($DIST/1.8)*2) + 2",
+    "is_even": "1",
+    "price": "24.60",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_2",
+    "calculation_form": "($DIST/1.8*4)",
+    "is_even": "0",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_3",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "13.07",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_4",
+    "calculation_form": "($DIST/1.8)+1",
+    "is_even": "0",
+    "price": "8.84",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_5",
+    "calculation_form": "($DIST/1.8) + 1",
+    "is_even": "0",
+    "price": "6.30",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_6",
+    "calculation_form": "($DIST/36+2)",
+    "is_even": "0",
+    "price": "9.59",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_7",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "19.03",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_2",
+    "calculation_form": "($DIST/1.8*5)",
+    "is_even": "0",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_3",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "13.07",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_4",
+    "calculation_form": "($DIST/1.8) + 1",
+    "is_even": "0",
+    "price": "8.84",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_5",
+    "calculation_form": "($DIST/1.8) + 1",
+    "is_even": "0",
+    "price": "6.30",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_6",
+    "calculation_form": "($DIST/36+2)",
+    "is_even": "0",
+    "price": "9.59",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_7",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "19.03",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_2",
+    "calculation_form": "($DIST/1.8*6)",
+    "is_even": "0",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_3",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "13.07",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_4",
+    "calculation_form": "($DIST/1.8) + 1",
+    "is_even": "0",
+    "price": "8.84",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_5",
+    "calculation_form": "($DIST/1.8) + 1",
+    "is_even": "0",
+    "price": "6.30",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_6",
+    "calculation_form": "($DIST/36+2)",
+    "is_even": "0",
+    "price": "9.59",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_7",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "19.03",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_9",
+    "calculation_form": "(($DIST/1.8)*2) + 2",
+    "is_even": "1",
+    "price": "29.26",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_8",
+    "calculation_form": "(($DIST/1.8)*2) + 2",
+    "is_even": "1",
+    "price": "26.96",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_2",
+    "calculation_form": "($DIST/1.8*7)",
+    "is_even": "0",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_3",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "13.07",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_4",
+    "calculation_form": "($DIST/1.8)+1",
+    "is_even": "0",
+    "price": "8.84",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_5",
+    "calculation_form": "($DIST/1.8)+1",
+    "is_even": "0",
+    "price": "6.30",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_6",
+    "calculation_form": "($DIST/36+2)",
+    "is_even": "0",
+    "price": "9.59",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_7",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "19.03",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_9",
+    "calculation_form": "(($DIST/1.8)*2) + 2",
+    "is_even": "1",
+    "price": "29.26",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_2",
+    "calculation_form": "($DIST/1.8*7)",
+    "is_even": "0",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_3",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "13.07",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_4",
+    "calculation_form": "($DIST/1.8)+1",
+    "is_even": "0",
+    "price": "8.84",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_5",
+    "calculation_form": "($DIST/1.8)+1",
+    "is_even": "0",
+    "price": "6.30",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_6",
+    "calculation_form": "($DIST/36+2)",
+    "is_even": "0",
+    "price": "9.59",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_7",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "19.03",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_9",
+    "calculation_form": "(($DIST/1.8)*2) + 2",
+    "is_even": "1",
+    "price": "29.26",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_12",
+    "calculation_form": "($DIST*6)+10",
+    "is_even": "0",
+    "price": "0.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "1_13",
+    "calculation_form": "($DIST*10)+10",
+    "is_even": "0",
+    "price": "0.35",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_12",
+    "calculation_form": "($DIST*6)+10",
+    "is_even": "0",
+    "price": "0.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "2_13",
+    "calculation_form": "($DIST*10)+10",
+    "is_even": "0",
+    "price": "0.35",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_12",
+    "calculation_form": "($DIST*6)+10",
+    "is_even": "0",
+    "price": "0.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "3_13",
+    "calculation_form": "($DIST*10)+10",
+    "is_even": "0",
+    "price": "0.35",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_12",
+    "calculation_form": "($DIST*7)+10",
+    "is_even": "0",
+    "price": "0.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "4_13",
+    "calculation_form": "($DIST*16)+10",
+    "is_even": "0",
+    "price": "0.35",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_12",
+    "calculation_form": "($DIST*7)+10",
+    "is_even": "0",
+    "price": "0.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "5_13",
+    "calculation_form": "($DIST*16)+10",
+    "is_even": "0",
+    "price": "0.35",
+    "retail_price": false
+  },
+  {
+    "fence_product": "6_2",
+    "calculation_form": "($DIST/1.8*6)",
+    "is_even": "1",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "6_15",
+    "calculation_form": "($DIST/1.8)",
+    "is_even": "0",
+    "price": "202.40",
+    "retail_price": false
+  },
+  {
+    "fence_product": "7_2",
+    "calculation_form": "($DIST/2.2*8)",
+    "is_even": "1",
+    "price": "34.75",
+    "retail_price": false
+  },
+  {
+    "fence_product": "7_16",
+    "calculation_form": "($DIST/2.2)",
+    "is_even": "0",
+    "price": "202.40",
+    "retail_price": false
+  }
+]

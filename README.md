@@ -14,7 +14,7 @@ Still to do:
 
 ## Development
 
-This app is created using HTML, JavaScript, and Tailwind CSS only. At the moment there is no `package.json` because there are no dependencies (other than Tailwind, which is directly linked in the markup). 
+These client-side app prototypes were created using HTML, JavaScript, and Tailwind CSS. At the moment there is no build step, nor a `package.json` - any dependencies are injected into markup via script tags. 
 
 This may change to enable PDF generation and email functionality.
 
