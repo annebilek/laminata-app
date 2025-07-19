@@ -4,9 +4,8 @@ main().catch(error => {
 });
 
 async function main() {
-  console.log('Application started');
-
   await displayProducts();
+  addInputValidation();
 }
 
 async function displayProducts() {
@@ -46,9 +45,18 @@ function showParts(filteredParts) {
   partsParent.replaceChildren(); // Remove the first child if it exists
 
   filteredParts.forEach(part => {
-    const elem = document.createElement('li');
+    const elem = document.createElement('div');
     elem.id = `part-${part.sku}`;
-    elem.textContent = part.name;
+    elem.classList.add('grid', 'grid-cols-[auto_1fr]', 'gap-4', 'px-4', 'py-3', 'border-b', 'last:border-b-0');
+    const img = document.createElement('img');
+    img.src = `../data/images/${part.image}`;
+    img.alt = part.name;
+    img.classList.add('h-12', 'w-16', 'rounded-md', 'object-cover');
+    elem.appendChild(img);
+    const span = document.createElement('span');
+    span.classList.add('flex', 'items-center');
+    span.textContent = part.name;
+    elem.appendChild(span);
 
     partsParent.appendChild(elem);
   });
@@ -62,11 +70,7 @@ function loadData(file) {
       }
       return response.json();
     })
-    .then(data => {
-      // Process the data as needed
-      console.log('Data loaded:', data);
-      return data;
-    })
+    .then(data => data)
     .catch(error => {
       console.error('There was a problem with the fetch operation:', error);
     });
@@ -90,14 +94,16 @@ function validateInput() {
   return true;
 } 
 
-const fenceLengthInput = document.getElementById('fence-length');
-fenceLengthInput.addEventListener('input', function() {
-  const errorMessage = document.getElementById('fence-length-error-message');
-  if (validateInput()) {
-    fenceLengthInput.classList.remove('border-red-500');
-    errorMessage.classList.add('hidden');
-  } else {
-    fenceLengthInput.classList.add('border-red-500');
-    errorMessage.classList.remove('hidden');
-  }
-});
+function addInputValidation() {
+  const fenceLengthInput = document.getElementById('fence-length');
+  fenceLengthInput.addEventListener('input', function() {
+    const errorMessage = document.getElementById('fence-length-error-message');
+    if (validateInput()) {
+      fenceLengthInput.classList.remove('border-red-500');
+      errorMessage.classList.add('hidden');
+    } else {
+      fenceLengthInput.classList.add('border-red-500');
+      errorMessage.classList.remove('hidden');
+    }
+  });
+}

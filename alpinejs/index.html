@@ -55,11 +55,14 @@
 
         <section id="parts-list" class="p-4">
             <h2 class="text-lg font-bold">Parts List</h2>
-            <ul id="parts" class="list-disc pl-5" x-data="filteredParts">
+            <div id="parts" x-data="filteredParts">
                 <template x-for="part in filteredParts" :key="part.id">
-                    <li x-text="part.name"></li>
+                    <div class="grid grid-cols-[auto_1fr] gap-4 px-4 py-3 border-b last:border-b-0">
+                        <img :src="`../data/images/${part.image}`" alt="part.name" class="h-12 w-16 rounded-md object-cover">
+                        <span class="flex items-center" x-text="part.name"></span>
+                    </div>
                 </template>
-            </ul>
+            </div>
         </section>
     </main>
 </html>
